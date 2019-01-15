@@ -1,18 +1,14 @@
 # Errors
 
-runtime errors happen after creation phase/parsing
-* they will appear under the log --- broken code ---
-syntax errors will keep JS from parsing your code
-* they will appear all alone since the logs never happened
+syntax errors will keep JS from parsing your code since you are passing in invalid commands to the engine
 
 
 learning objectives:
 * reading & identifying error messages
-* finding and fixing errors
-* runtime vs syntax errors 
+* finding and fixing syntax errors
 * building a personal error+fix reference
 * not logic errors, that's for 'debugging'
-* using replit
+* using devtools console
 
 ---
 ---
