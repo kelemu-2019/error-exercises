@@ -1,11 +1,4 @@
-/*
-  runtime errors happen after creation phase/parsing
-    they will appear under the log --- broken code ---
-  syntax errors will keep JS from parsing your code
-    they will appear all alone since the logs never happened
-*/
-
-console.log('--- --- missing opening bracket --- ---');
+{console.log('--- --- missing opening bracket --- ---');
 
 console.log('--- broken code ---')
 
@@ -43,3 +36,4 @@ console.log('--- the fix ---')
     console.assert(value === 9, 'nopes');
   `)
   console.log('there was a missing opening bracket after the condition check')
+}
