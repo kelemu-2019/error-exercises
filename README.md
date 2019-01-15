@@ -15,15 +15,57 @@ learning objectives:
 * using replit
 
 ---
+---
+
+(we can refine the examples in meetups by seeing what errors people often make)
+
+you can complete these exercises directly in the browser on your fork of this repo.  paste the broken code into the devtools console, copy-paste the error message into the 'error message' space, then fix the error and paste your fixed code into 'the fix'.
+we've provided some examples
+
 
 ## The Challenges
+* organize/index this by error type
+    * and example name
 
-(to be done in replit)
-a whole bunch.   take a look through them and see which are best or which you've come across yourself   
-we can refine this in meetups by seeing what errors people often make
-
+---
+**missing variable name** 
+broken code:
 ```js
 var = 5;
+```
+error message:
+```js
+```
+the fix:
+```js
+```
+your notes:
+
+---
+
+**malformed while loop** 
+broken code:
+```js
+let value = 0;
+while (value < 9) 
+  value++;
+};
+```
+error message:
+```js
+Uncaught SyntaxError: Unexpected token }
+```
+the fix:
+```js
+let value = 0;
+while (value < 9) {
+  value++;
+};
+```
+your notes:
+
+---
+```
 
 let a = {b:3};
 a.b.3
