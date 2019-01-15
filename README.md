@@ -16,7 +16,11 @@ learning objectives:
 (we can refine the examples in meetups by seeing what errors people often make)
 
 you can complete these exercises directly in the browser on your fork of this repo.  paste the broken code into the devtools console, copy-paste the error message into the 'error message' space, then fix the error and paste your fixed code into 'the fix'.
-we've provided some examples
+We've provided some completed examples for you to get the idea
+
+Practice also clicking on the 'VM##:#' link to the right of the error message.  Devtools will automatically open the source code and highlight where the error appears.  With these super simple examples this feature may feel like overkill, but you will appreciate it's help once you move on to the next set of exercises
+
+('unexpected token' or 'end of input' is a tough one since it is often caught well after the mistake that caused it)
 
 
 ## The Challenges
