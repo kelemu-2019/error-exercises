@@ -28,7 +28,7 @@ we've provided some examples
     * and example name
 
 ---
-**missing variable name** 
+**missing variable name**   
 broken code:
 ```js
 var = 5;
@@ -43,7 +43,7 @@ your notes:
 
 ---
 
-**malformed while loop** 
+**malformed while loop**   
 broken code:
 ```js
 let value = 0;
@@ -52,7 +52,7 @@ while (value < 9)
 };
 ```
 error message:
-```js
+```
 Uncaught SyntaxError: Unexpected token }
 ```
 the fix:
@@ -64,48 +64,181 @@ while (value < 9) {
 ```
 your notes:
 
+
 ---
-```
-
+**too-far object access**   
+broken code:
+```js
 let a = {b:3};
-a.b.3
+let b = a.b.3
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
-let a = {b:'e'};
-b.e
+---
+**access property directly**   
+broken code:
+```js
+let x = {b:'e'};
+let y = b.e;
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
-let a;
-a.b;
-
+---
+**impropper multi-line string**   
+broken code:
+```js
 let a = 'this is 
 two lines';
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+
+---
+**impropper end of statement**   
+broken code:
+```js
 let a = 1:
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+
+---
+**malformed array**   
+broken code:
+```js
 let myArray = [1, 2, 3;
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+
+---
+**missing arguments**   
+broken code:
+```js
 function getNine {
   let x = 6;
   let y = 3;
   return x + y;
 }
-let result = getNine;
+let result = getNine();
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+
+---
+**improper nested quotes**   
+broken code:
+```js
 let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+---
+**improper nested quotes**   
+broken code:
+```js
 let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+
+---
+**reassigning to constant**   
+broken code:
+```js
 const a = 9;
 a = 0;
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
+---
+**unassigned const declaration**   
+broken code:
+```js
 const a;
 a = 0;
+```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
 
-let value = 0;
-while (value < 9) 
-  value++;
-};
 
+---
+**.length is not a function**   
+broken code:
+```js
 let array = [];
 array.length()
 ```
+error message:
+```
+```
+the fix:
+```js
+```
+your notes:
+
+
+
+
+
+
 
