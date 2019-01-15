@@ -12,11 +12,13 @@ learning objectives:
 * runtime vs syntax errors 
 * building a personal error+fix reference
 * not logic errors, that's for 'debugging'
+* using replit
 
 ---
 
 ## The Challenges
 
+(to be done in replit)
 a whole bunch.   take a look through them and see which are best or which you've come across yourself   
 we can refine this in meetups by seeing what errors people often make
 
