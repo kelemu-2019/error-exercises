@@ -9,6 +9,7 @@ learning objectives:
 * building a personal error+fix reference
 * not logic errors, that's for 'debugging'
 * using devtools console
+* writing markdown directly from github
 
 ---
 ---
@@ -34,21 +35,6 @@ Practice also clicking on the 'VM##:#' link to the right of the error message.  
     * and example name
 
 ---
-**missing variable name**   
-broken code:
-```js
-var = 5;
-```
-error message:
-```js
-```
-the fix:
-```js
-```
-your notes:
-
----
-
 **malformed while loop**   
 broken code:
 ```js
@@ -72,6 +58,22 @@ your notes:
 
 
 ---
+
+**missing variable name**   
+broken code:
+```js
+var = 5;
+```
+error message:
+```js
+```
+the fix:
+```js
+```
+your notes:
+
+---
+
 **too-far object access**   
 broken code:
 ```js
