@@ -13,6 +13,11 @@ learning objectives:
 ---
 ---
 
+todo: new exercise interactions
+* provide index of error types
+* and errors
+* the sort errors under index by type with fixes
+
 (we can refine the examples in meetups by seeing what errors people often make)
 
 you can complete these exercises directly in the browser on your fork of this repo.  paste the broken code into the devtools console, copy-paste the error message into the 'error message' space, then fix the error and paste your fixed code into 'the fix'.
