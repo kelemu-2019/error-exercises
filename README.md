@@ -17,6 +17,7 @@ todo: new exercise interactions
 * provide index of error types
 * and errors
 * the sort errors under index by type with fixes
+* encourage them to do this forever as the come accross interesting errors
 
 (we can refine the examples in meetups by seeing what errors people often make)
 
