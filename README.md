@@ -1,26 +1,33 @@
 # Errors
 
-runtime errors happen after creation phase/parsing
-* they will appear under the log --- broken code ---
-syntax errors will keep JS from parsing your code
-* they will appear all alone since the logs never happened
+syntax errors will keep JS from parsing your code since you are passing in invalid commands to the engine
 
 
 learning objectives:
 * reading & identifying error messages
-* finding and fixing errors
-* runtime vs syntax errors 
+* finding and fixing syntax errors
 * building a personal error+fix reference
 * not logic errors, that's for 'debugging'
-* using replit
+* using devtools console
+* writing markdown directly from github
 
 ---
 ---
+
+todo: new exercise interactions
+* provide index of error types
+* and errors
+* the sort errors under index by type with fixes
+* encourage them to do this forever as the come accross interesting errors
 
 (we can refine the examples in meetups by seeing what errors people often make)
 
 you can complete these exercises directly in the browser on your fork of this repo.  paste the broken code into the devtools console, copy-paste the error message into the 'error message' space, then fix the error and paste your fixed code into 'the fix'.
-we've provided some examples
+We've provided some completed examples for you to get the idea
+
+Practice also clicking on the 'VM##:#' link to the right of the error message.  Devtools will automatically open the source code and highlight where the error appears.  With these super simple examples this feature may feel like overkill, but you will appreciate it's help once you move on to the next set of exercises
+
+('unexpected token' or 'end of input' is a tough one since it is often caught well after the mistake that caused it)
 
 
 ## The Challenges
@@ -28,21 +35,6 @@ we've provided some examples
     * and example name
 
 ---
-**missing variable name**   
-broken code:
-```js
-var = 5;
-```
-error message:
-```js
-```
-the fix:
-```js
-```
-your notes:
-
----
-
 **malformed while loop**   
 broken code:
 ```js
@@ -66,6 +58,22 @@ your notes:
 
 
 ---
+
+**missing variable name**   
+broken code:
+```js
+var = 5;
+```
+error message:
+```js
+```
+the fix:
+```js
+```
+your notes:
+
+---
+
 **too-far object access**   
 broken code:
 ```js
