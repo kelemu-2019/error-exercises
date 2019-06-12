@@ -9,32 +9,15 @@ Complete these exercises directly in the browser from your fork of this repo. (W
 1. Classify the error: _Creation or Execution_ and _Syntax or Semantic_
 1. Fix the error and paste your fixed code into "the fix" section of the challenge
 
-
-
 Practice using the devtools by clicking on the 'VM##:#' link to the right of the error message.  Devtools will automatically open the source code and highlight where the error appears.  With these super simple examples this feature may feel like overkill, but you will appreciate it's help once you move on to the next set of exercises.
 
-### Index:
-* [learning objectives](#learning-objectives)
-* exercises
-    * [malfomed while loop](#malformed-while-loop) (completed example)
-    * [missing variable name](#missing-variable-name)
-    * [too-far object access](#too-far-object-access)
-    * [access property direclty](#access-property-directly)
-    * [improper multi-line string](#improper-multi-line-string)
-    * [improper end of statement](#improper-end-of-statement)
-    * [malformed array](#malformed-array)
-    * [missing arguments](#missing-arguments)
-    * [improper nested quotes 1](#improper-nested-quotes-1)
-    * [improper nested quotes 2](#improper-nested-quotes-2)
-    * [reassigning to constant](#reassigning-to-constant)
-    * [unassigned const declaration](#unassigned-const-declaration)
-    * [is not a function](#is-not-a-function)
-* study tools
-    * [PythonTutor for JavaScript](http://pythontutor.com/javascript.html#)
-    * [the Parsonizer](https://janke-learning.github.io/parsonizer/)
-* [resources](https://github.com/janke-learning/errors-and-life-cycle)
+### Index
+* [Learning objectives](#learning-objectives)
+* [completed examples](#completed-examples)
+* [exercises](#exercises)
+* [resources](#resources)
 
----
+
 ---
 
 ## Learning Objectives
@@ -47,11 +30,9 @@ Practice using the devtools by clicking on the 'VM##:#' link to the right of the
 * using devtools console
 * writing markdown directly from github
 
-
-
-
 ---
-## Exercises
+
+## completed example
 
 ### malformed while loop
 
@@ -79,262 +60,32 @@ while (value < 9) {
 ```
 your notes:
 
-[TOP](#errors)
-
----
-
-### missing variable name
-broken code:
-```js
-var = 5;
 ```
-error message:
-```js
+there was no opening bracket
 ```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
 
 [TOP](#errors)
 
 ---
 
-## too-far object access
-broken code:
-```js
-let a = {b:3};
-let b = a.b.3
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+## exercises
 
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
+1. [formatting](./01-formatting.md)
+1. [variables](./02-variables.md)
+1. [functions](./03-functions.md)
+1. [primitve types](./04-primitive-types.md)
+1. [objects](./05-objects.md)
+1. [arrays](./06-arrays.md)
+1. [conditionals](07-conditionals.md)
+1. [loops](./08-loops.md)
 
 ---
-## access property directly
-broken code:
-```js
-let x = {b:'e'};
-let y = b.e;
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
 
-the fix:
-```js
-```
-your notes:
+## Resources
 
-[TOP](#errors)
+* [PythonTutor for JavaScript](http://pythontutor.com/javascript.html#)
+* [errors and life-cycle](https://github.com/janke-learning/errors-and-life-cycle)
 
----
-## improper multi-line string
-broken code:
-```js
-let a = 'this is 
-two lines';
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## improper end of statement
-broken code:
-```js
-let a = 1:
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## malformed array
-broken code:
-```js
-let myArray = [1, 2, 3;
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## missing arguments
-broken code:
-```js
-function getNine {
-  let x = 6;
-  let y = 3;
-  return x + y;
-}
-let result = getNine();
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## improper nested quotes 1
-broken code:
-```js
-let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## improper nested quotes 2 
-broken code:
-```js
-let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## reassigning to constant
-broken code:
-```js
-const a = 9;
-a = 0;
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## unassigned const declaration
-broken code:
-```js
-const a;
-a = 0;
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-[TOP](#errors)
-
----
-## is not a function
-broken code:
-```js
-let array = [];
-array.length()
-```
-error message:
-```
-```
-classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
-
-the fix:
-```js
-```
-your notes:
-
-
-
-[TOP](#errors)
 
 
 
