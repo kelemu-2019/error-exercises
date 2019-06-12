@@ -70,14 +70,14 @@ there was no opening bracket
 
 ## exercises
 
-1. [formatting](./01-formatting.md)
-1. [variables](./02-variables.md)
-1. [functions](./03-functions.md)
-1. [primitve types](./04-primitive-types.md)
-1. [objects](./05-objects.md)
-1. [arrays](./06-arrays.md)
-1. [conditionals](07-conditionals.md)
-1. [loops](./08-loops.md)
+1. [formatting](./formatting.md)
+1. [variables](./variables.md)
+1. [functions](./functions.md)
+1. [primitve types](./primitive-types.md)
+1. [objects](./objects.md)
+1. [arrays](./arrays.md)
+1. [conditionals](conditionals.md)
+1. [loops](./loops.md)
 
 ---
 
