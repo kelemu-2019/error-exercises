@@ -32,7 +32,7 @@ Practice using the devtools by clicking on the 'VM##:#' link to the right of the
 
 ---
 
-## completed example
+## completed examples
 
 ### malformed while loop
 
