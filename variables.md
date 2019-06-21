@@ -12,7 +12,7 @@
 
 broken code:
 ```js
-var = 5;
+const = 5;
 ```
 error message:
 ```js
