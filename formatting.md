@@ -22,7 +22,7 @@ classification:
 
 the fix:
 ```js
-creation phase and Syntax Errors
+let a=1;
 ```
 your notes:
 SyntaxError: missing ; before statement
