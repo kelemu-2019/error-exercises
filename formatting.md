@@ -13,7 +13,7 @@ broken code:
 let a = 1:
 ```
 error message:
-```
+``SyntaxError: unexpected token: ':'`
 ```
 classification:
 * creation phase or execution phase ?
