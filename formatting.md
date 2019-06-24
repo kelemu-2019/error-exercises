@@ -14,6 +14,7 @@ let a = 1:
 ```
 error message:
 ```
+SyntaxError: unexpected token: ':'
 ```
 classification:
 * creation phase or execution phase ?
@@ -21,8 +22,10 @@ classification:
 
 the fix:
 ```js
+creation phase and Syntax Errors
 ```
 your notes:
+SyntaxError: missing ; before statement
 
 [TOP](#formatting-errors)
 
