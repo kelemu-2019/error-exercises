@@ -14,16 +14,19 @@ let a = 1:
 ```
 error message:
 ```
+SyntaxError: unexpected token: ':'
 ```
 classification:
 * creation phase or execution phase ?
 * syntax or semanitc ?
 
+creation phase and syntax
 the fix:
-```js
+```
+let a=1;js
 ```
 your notes:
-
+SyntaxError: missing ; before statement
 [TOP](#formatting-errors)
 
 
